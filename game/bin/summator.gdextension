@@ -5,6 +5,8 @@ compatibility_minimum = 4.1
 
 [libraries]
 
+web.debug.wasm32 = "libgdsummator.javascript.template_debug.wasm32.wasm"
+web.release.wasm32 = "libgdsummator.javascript.template_release.wasm32.wasm"
 linux.x86_64.debug = "res://bin/libgdsummator.linux.template_debug.x86_64.so"
 linux.x86_64.release = "res://bin/libgdsummator.linux.template_release.x86_64.so"
 linux.debug.arm64 = "res://bin/libgdsummator.linux.template_debug.arm64.so"

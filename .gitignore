@@ -3,6 +3,9 @@
 game/bin/summator/*
 .sconsign*.dblite
 
+# Exports from game
+game/builds/
+
 # Binaries
 *.o
 *.os
